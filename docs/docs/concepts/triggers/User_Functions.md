@@ -67,7 +67,7 @@ redis.registerFunction('my_get', function(client, ...keys){
 Run example:
 
 ```bash
-127.0.0.1:6379> TFCALL foo.my_get 2 x h
+127.0.0.1:6379> TFCALL lib.my_get 2 x h
 1) "1"
 2) 1) "a"
    2) "b"
